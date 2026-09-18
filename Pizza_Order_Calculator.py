@@ -8,10 +8,14 @@ print ("Welcome to Kennedy's Pizza")
 # Using if, elif, then statement to add price for the size of the pizza
 size = input ("What size pizza would you like? Small, Medium, or Large")
 
-if size = "Small":
+if size == "Small":
     price = 10
-elif size = "Medium":
+elif size == "Medium":
      price = 12
-elif size = "Large":
+elif size == "Large":
     price = 15
 else print ("Sorry that is not an option")
+
+#Adding toppin choice using a List
+print ("What toppings would you like on your pizza?")
+toppings = [ "Cheese only", "Pepperponi", "Sausauge", "Bacon"]
