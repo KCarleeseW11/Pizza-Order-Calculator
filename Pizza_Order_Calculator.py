@@ -22,7 +22,11 @@ toppings = [ "Cheese only", "Pepperponi", "Sausauge", "Bacon"]
 print ("The availble toppings are :",toppings )
 choice = input("Select one topping you would like for your Pizza")
 #adding price of toppings 
+
  if choice == "Cheese only":
     with_topping =0
 else:
 with_topping = 2
+
+final_price = price + with_topping
+print (" The final cost of your order will be :$", final_price)
