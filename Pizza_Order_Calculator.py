@@ -1,16 +1,17 @@
 """ Pizza Order Calculator
 Kennedy Walker
 Date: 9/18/2026
-Reason: This program is to calculate the prcie of the pizza after the customer orders"""
+Reason: This program is to calculate the price of the pizza after the customer orders"""
 
-print ("Welcome to Kennedy's Pizza")
+print ("Welcome to Kennedy's Pizza Shop")
 
-# Using if, elif, then statement to add price for the size of the pizza
+
 size = input ("What size pizza would you like? Small, Medium, or Large")
 
-
+#Used "While" Loop
 while size != "Small" and size != "Medium" and size != "Large" :
     print("That is not an option")
+    # Using if, elif, then statement to add price for the size of the pizza
 if size == "Small":
     price = 10
 elif size == "Medium":
